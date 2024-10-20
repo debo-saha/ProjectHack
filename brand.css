@@ -1,0 +1,46 @@
+/* Apply blue background to the entire section */
+.section.brand {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  ul.middle {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  ul.item {
+    background-color: #e6f2ff; /* Light blue for contrast */
+    padding: 20px;
+    border-radius: 8px;
+    width: 150px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+  }
+  
+  li.heading_one {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff; /* White text to contrast the blue */
+    margin-bottom: 10px;
+  }
+  
+  li.statistics {
+    font-size: 36px;
+    font-weight: bold;
+    color: #d1deec; /* Darker shade of blue */
+  }
+  
+  /* Responsive design for smaller screens */
+  @media (max-width: 768px) {
+    ul.middle {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    ul.item {
+      margin-bottom: 20px;
+    }
+  }
+  

@@ -1,0 +1,110 @@
+
+.card {
+    width: 320px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border: 2px solid #d8b1ff;
+    margin-bottom: 20px;
+}
+
+.card-header {
+    background-color: #6e00ff;
+    color: #fff;
+    padding: 10px 15px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.court-name {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.case-number {
+    font-size: 14px;
+}
+
+.card-body {
+    padding: 15px;
+    background-color: #f5e8ff;
+}
+
+.request-title {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.reward-section {
+    background-color: #007BFF; /* Light blue to match background */
+    color: #fff;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.reward-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.icon {
+    background: url('https://via.placeholder.com/40') no-repeat center;
+    width: 40px;
+    height: 40px;
+    /* margin-right: 10px; */
+    border-radius: 50%;
+}
+
+.reward-amount {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.stake-info {
+    font-size: 14px;
+    margin: 10px 0;
+    color: #333;
+}
+
+.info-icon {
+    font-style: normal;
+    font-weight: bold;
+    color: #666;
+}
+
+.card-footer {
+    background-color: #f5e8ff;
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.status {
+    font-size: 14px;
+    color: #999;
+}
+
+.details-button {
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.details-button:hover {
+    background-color: #357ab8;
+}
